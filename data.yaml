@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 29
+names: ['Back-bumper', 'Back-door', 'Back-wheel', 'Back-window', 'Back-windshield', 'Broken part', 'Corrosion', 'Cracked', 'Dent', 'Fender', 'Flaking', 'Front-bumper', 'Front-door', 'Front-wheel', 'Front-window', 'Grille', 'Headlight', 'Hood', 'License-plate', 'Mirror', 'Missing part', 'Paint chip', 'Quarter-panel', 'Rocker-panel', 'Roof', 'Scratch', 'Tail-light', 'Trunk', 'Windshield']
+
+roboflow:
+  workspace: moeezs-workspace-gsui5
+  project: car-dent-detection-mhkns
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/moeezs-workspace-gsui5/car-dent-detection-mhkns/dataset/1
